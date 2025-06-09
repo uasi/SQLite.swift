@@ -20,7 +20,8 @@ let package = Package(
         .target(
             name: "SQLite",
             exclude: [
-                "Info.plist"
+                "Info.plist",
+                "PrivacyInfo.xcprivacy"
             ]
         ),
         .testTarget(
